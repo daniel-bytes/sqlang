@@ -1,0 +1,16 @@
+{
+  "name": "sq",
+  "version": "1.0.0",
+  "main": "sq.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-file sq.js --presets=env",
+    "build-editor": "babel editor --out-file sq_editor.js --presets=env",
+    "watch": "babel src --out-file sq.js --presets=env --watch",
+    "watch-editor": "babel editor --out-file sq_editor.js --presets=env --watch"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
